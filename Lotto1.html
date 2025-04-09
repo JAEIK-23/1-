@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로또 번호 생성기기</title>
+    <link href="lotto.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="title">로또 번호 생성기</span>
+            <span class="subtitle">행운의 번호를 생성해보세요!</span>
+        </div>
+        
+          
+
+        <div class="lotto-ball">
+            <span class="name">번호 생성</span>
+            <div class="ball-number">
+                <span class="ball ball1">?</span>
+                <span class="ball ball2">?</span>
+                <span class="ball ball3">?</span>
+                <span class="ball ball4">?</span>
+                <span class="ball ball5">?</span>
+                <span class="ball ball6">?</span>
+            </div>
+        </div>
+         <div class="button-center">
+            <button class="button">번호 생성하기</button>
+        </div>   
+        
+
+        <div class="purchase">
+            <span class="purchase-name">로또 구매하기</span>
+            <form>
+                <span class="amount">구매 수량:  </span>
+                <input type="number" name="name">
+            </form>
+
+            <p>총 금액: <span id="total">0</span>원 (1장당 1,000원)</p> 
+            <div class="button-center1">
+                    <button class="button1">구매하기</button>
+            </div>
+
+            <div class = "result"> </div>
+        </div>
+
+            
+    </div>
+    <script src="lotto.js"></script>
+</body>
+</html>
